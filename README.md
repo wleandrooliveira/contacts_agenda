@@ -1,45 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Projeto criado com  o comando create-react-app
 
-## Available Scripts
+## Efetuando o Download do Backend
 
-In the project directory, you can run:
+Para utilizar essa aplicação primeiramente efetue o clone desse backend.
+git clone https://github.com/wleandrooliveira/backend_agenda.git 
 
-### `npm start`
+Depois acesse a pasta do bakend
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+cd backend_agenda
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Depois utilize o comando npm install para baixar as dependências e em seguida o npm start para executar 
+o backend que estará funcionando na porta http://localhost:5001
 
-### `npm test`
+## Efetuando o Download da Aplicação contacts-agenda
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+git clone https://github.com/wleandrooliveira/contacts_agenda.git
 
-### `npm run build`
+Depois acesse a pasta do contacts_agenda
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+cd contacts_agenda
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Em seguida utilize o npm install para baixar as dependências e npm start ou yarn start para executar a aplicação.
+A aplicação estará funcionando na em  http://localhost:3000
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-"# contacts_agenda" 
